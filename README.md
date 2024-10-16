@@ -29,4 +29,4 @@ This application will be able to summarize any text document, research paper, or
 
 ## Note:
 
-- This project could be done by importing a transformer model directly but we opted not to do that as it takes significant space for caching.
+- This project imports transformers from Hugging face and would require to cache tensors locally. So please allocate sufficient space in your disks.
